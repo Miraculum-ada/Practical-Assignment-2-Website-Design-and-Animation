@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Схема веб-страницы</title>
+  <desc id="desc">Иллюстрация окна браузера с карточками контента и зелёным растением</desc>
+  <rect x="20" y="20" width="720" height="480" rx="30" fill="#e3eee6"/>
+  <circle cx="83" cy="74" r="9" fill="#d38e4c"/><circle cx="113" cy="74" r="9" fill="#bfd2c5"/><circle cx="143" cy="74" r="9" fill="#bfd2c5"/>
+  <rect x="58" y="112" width="644" height="348" rx="18" fill="#fff"/>
+  <rect x="88" y="145" width="270" height="17" rx="8" fill="#bfd2c5"/>
+  <rect x="88" y="187" width="286" height="45" rx="8" fill="#246b4b"/>
+  <rect x="88" y="248" width="210" height="11" rx="5" fill="#dce3dd"/>
+  <rect x="88" y="270" width="244" height="11" rx="5" fill="#dce3dd"/>
+  <rect x="88" y="312" width="113" height="38" rx="8" fill="#d38e4c"/>
+  <rect x="390" y="145" width="275" height="185" rx="14" fill="#dcefe4"/>
+  <circle cx="526" cy="236" r="54" fill="#b6d5c1"/>
+  <path d="M523 280c-4-42 6-75 34-96M520 258c-26-31-45-37-68-38M526 232c-11-32-9-51 4-72" fill="none" stroke="#246b4b" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="485" cy="219" rx="24" ry="12" transform="rotate(28 485 219)" fill="#4c8a63"/>
+  <ellipse cx="555" cy="195" rx="25" ry="12" transform="rotate(-34 555 195)" fill="#4c8a63"/>
+  <ellipse cx="530" cy="175" rx="23" ry="11" transform="rotate(-72 530 175)" fill="#246b4b"/>
+  <rect x="390" y="350" width="128" height="76" rx="10" fill="#f1f4ef"/><rect x="536" y="350" width="129" height="76" rx="10" fill="#f1f4ef"/>
+  <rect x="410" y="369" width="64" height="8" rx="4" fill="#8ead9a"/><rect x="410" y="387" width="88" height="7" rx="3" fill="#d0dcd3"/>
+  <rect x="556" y="369" width="64" height="8" rx="4" fill="#8ead9a"/><rect x="556" y="387" width="88" height="7" rx="3" fill="#d0dcd3"/>
+</svg>

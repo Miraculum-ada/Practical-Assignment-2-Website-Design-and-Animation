@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Учебный пример семантической структуры HTML5.">
+  <title>Учебный сайт — Практическая работа №2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Перейти к основному содержимому</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#hero" aria-label="Учебный сайт — на главную">ЛОГО<span>.</span></a>
+      <nav aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#features">Преимущества</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Семантическая структура HTML5</p>
+        <h1 id="hero-title">Добро пожаловать!</h1>
+        <p class="hero-lead">Создаём понятные и доступные веб-страницы — от первой строки HTML до готового сайта.</p>
+        <a class="button" href="#features">Узнать больше <span aria-hidden="true">→</span></a>
+      </div>
+      <figure class="hero-figure">
+        <img src="images/hero.svg" alt="Иллюстрация веб-страницы с блоками заголовка, текста и изображения">
+        <figcaption>Структура страницы начинается с семантической разметки</figcaption>
+      </figure>
+    </section>
+
+    <section class="content-section about" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">О проекте</p>
+        <h2 id="about-title">Сайт, который легко читать</h2>
+      </div>
+      <p>Учебный сайт показывает, как организовать контент с помощью HTML5. Семантические элементы помогают браузерам, поисковым системам и вспомогательным технологиям понимать назначение каждой части страницы.</p>
+    </section>
+
+    <section class="content-section features" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">Почему это важно</p>
+        <h2 id="features-title">Наши преимущества</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number" aria-hidden="true">01</span>
+          <h3>Скорость</h3>
+          <p>Лёгкая структура помогает быстро загружать и обрабатывать страницу.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number" aria-hidden="true">02</span>
+          <h3>Надёжность</h3>
+          <p>Стандартизированная разметка одинаково работает в современных браузерах.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number" aria-hidden="true">03</span>
+          <h3>Поддержка</h3>
+          <p>Логичная структура упрощает сопровождение и развитие проекта.</p>
+        </article>
+      </div>
+    </section>
+
+    <aside class="resources" aria-labelledby="resources-title">
+      <div>
+        <p class="eyebrow">Продолжить изучение</p>
+        <h2 id="resources-title">Полезные ссылки</h2>
+      </div>
+      <ul>
+        <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML">Справочник HTML на MDN <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/ru">Введение в доступность W3C <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://validator.w3.org/">Валидатор W3C <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <div class="footer-inner">
+      <div>
+        <a class="logo footer-logo" href="#hero">ЛОГО<span>.</span></a>
+        <p>Учебный сайт о структуре HTML5</p>
+      </div>
+      <address><a href="mailto:email@example.com">email@example.com</a></address>
+      <p class="copyright">© 2025 Учебный сайт. Все права защищены.</p>
+    </div>
+  </footer>
+</body>
+</html>
